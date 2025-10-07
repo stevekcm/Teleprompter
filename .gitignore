@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+build/
+dist/
+out/
+*.node
+
+# Native module build files
+native/build/
+*.gypi
+*.target.mk
+*.Makefile
+
+# Electron specific
+.electron/
+electron-builder.yml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment and config files
+.env
+.env.local
+.env.*.local
+config.json
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Package manager locks (keep one, ignore others)
+# package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# Debug files
+*.pid
+*.seed
+*.pid.lock
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Application specific
+scripts/
+*.script
+teleprompter-scripts/
+user-data/
+electron.log

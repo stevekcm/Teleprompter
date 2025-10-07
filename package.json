@@ -1,0 +1,27 @@
+{
+  "name": "teleprompter",
+  "version": "1.0.0",
+  "description": "macOS teleprompter app that overlays PowerPoint and avoids screen capture",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-native": "cd native && node-gyp configure && node-gyp build && cd ..",
+    "rebuild": "cd native && node-gyp rebuild && cd ..",
+    "clean": "cd native && node-gyp clean && cd .."
+  },
+  "keywords": [
+    "teleprompter",
+    "electron",
+    "macos",
+    "presentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "node-gyp": "^10.0.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.5.0"
+  }
+}
